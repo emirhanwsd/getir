@@ -1,2 +1,3 @@
-# getir
-home page design of getir.com
+# Getir
+
+Home page design of getir.com
