@@ -254,8 +254,9 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-6 gap-4 sm:gap-8">
-            {categories.map((category) => (
+            {categories.map((category, index) => (
               <a
+                key={index}
                 href="#"
                 className="p-6 flex flex-col gap-y-4 items-center justify-center rounded-xl hover:bg-gray-50 transition-colors"
               >
