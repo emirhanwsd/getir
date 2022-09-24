@@ -266,7 +266,7 @@ const Home = () => {
                   alt=""
                 />
 
-                <h4 className="font-medium">{category.title}</h4>
+                <h4 className="font-medium text-center">{category.title}</h4>
               </a>
             ))}
           </div>
